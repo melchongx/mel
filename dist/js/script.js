@@ -1,3 +1,8 @@
-if (!confirm("Are you sure you want to enter the site")) {
-    window.close();
+let btnAddEntry = document.getElementById("btnAddEntry").addEventListener("click", clickFunction);
+
+function clickFunction() {
+    alert("Hellos");
 }
+/*btnAddEntry.addEventListener("click", function() {
+    alert("Hello");
+});*/
